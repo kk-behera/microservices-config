@@ -1,1 +1,1 @@
-# microservices-config
+# Acts as Config server for all microservices
