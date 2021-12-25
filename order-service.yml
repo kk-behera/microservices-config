@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order-service
+  profiles:
+    active: native
+eureka:
+  client:
+    registerWithEureka: true
+    fetchregistry: true
+    serviceUrl:
+      defaultZone: http://localhost:7070/eureka
+  instance:
+    preferIpAddress: true
+
+server:
+  port: 8090
+
+info:
+  app:
+    name: Order service
+    description: Service for order management
+constants:
+  payment:
+    mode: cash
