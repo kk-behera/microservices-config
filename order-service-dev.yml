@@ -12,3 +12,16 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     defaultZone: http://ec2-65-0-170-153.ap-south-1.compute.amazonaws.com:7000/eureka
+
+endpoints:
+  shutdown:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+  endpoint:
+    shutdown:
+      enabled: true
