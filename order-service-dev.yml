@@ -1,7 +1,3 @@
 constants:
   payment:
     mode: cash
-info:
-  app:
-    name: Order service
-    description: Service for order management
