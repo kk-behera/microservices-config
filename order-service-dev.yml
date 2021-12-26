@@ -1,3 +1,14 @@
 constants:
   payment:
     mode: cash
+info:
+  app:
+    name: Order service
+    description: Service for order management
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    defaultZone: http://ec2-65-0-170-153.ap-south-1.compute.amazonaws.com:7000/eureka
