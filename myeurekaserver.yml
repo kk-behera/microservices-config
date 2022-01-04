@@ -2,7 +2,7 @@ server:
   port: 7000
 eureka:
   instance:
-    hostname: ec2-65-0-170-153.ap-south-1.compute.amazonaws.com
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
